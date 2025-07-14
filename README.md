@@ -1,6 +1,6 @@
 # 🌀 LazyCrank
 
-**LazyCrank** is a fun project to automate an old awning that uses a manual iron crank. Instead of turning it by hand, an **ESP32** with **MicroPython** controls a **12V DC gear motor** to crank it automatically via a web interface.
+**LazyCrank** is a fun project to automate an old awning that uses a manual iron crank. Instead of turning it by hand, an **ESP32** with **MicroPython** controls a **12V DC gear motor** to crank it automatically via a web interface. 
 
 ---
 
@@ -74,6 +74,15 @@ lazycrank/
 ```
 
 ---
+
+## Installation instructions
+
+- Copy the three files inside ESP32
+  - ampy --port /dev/ttyUSB0 put main.py
+  - ampy --port /dev/ttyUSB0 put boot.py
+  - ampy --port /dev/ttyUSB0 put index.html
+- Reboot ESP32
+- Connect to the IP that appears in your home router with the name "mpy-esp32c3"
 
 ## 🧪 Current Status
 
