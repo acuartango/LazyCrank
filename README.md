@@ -78,9 +78,11 @@ lazycrank/
 ## Installation instructions
 
 - Copy the three files inside ESP32
-  - ampy --port /dev/ttyUSB0 put main.py
-  - ampy --port /dev/ttyUSB0 put boot.py
-  - ampy --port /dev/ttyUSB0 put index.html
+```
+ampy --port /dev/ttyUSB0 put main.py
+ampy --port /dev/ttyUSB0 put boot.py
+ampy --port /dev/ttyUSB0 put index.html
+```
 - Reboot ESP32
 - Connect to the IP that appears in your home router with the name "mpy-esp32c3"
 
